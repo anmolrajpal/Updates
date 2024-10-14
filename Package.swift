@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Updates",
     platforms: [
-        .iOS("9.0")
+      .iOS("9.0"), .macOS(.v10_14)
     ],
     products: [
         .library(
